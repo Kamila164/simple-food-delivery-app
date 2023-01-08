@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E41680A296B668800BB35ED /* DeliveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E416809296B668800BB35ED /* DeliveryViewController.swift */; };
 		8EBDEF05296ACA7100B649C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBDEF04296ACA7100B649C7 /* AppDelegate.swift */; };
 		8EBDEF07296ACA7100B649C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBDEF06296ACA7100B649C7 /* SceneDelegate.swift */; };
 		8EBDEF09296ACA7100B649C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBDEF08296ACA7100B649C7 /* ViewController.swift */; };
 		8EBDEF0C296ACA7100B649C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EBDEF0A296ACA7100B649C7 /* Main.storyboard */; };
 		8EBDEF0E296ACA7100B649C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EBDEF0D296ACA7100B649C7 /* Assets.xcassets */; };
 		8EBDEF11296ACA7100B649C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EBDEF0F296ACA7100B649C7 /* LaunchScreen.storyboard */; };
+		8EBDEF19296ACFDE00B649C7 /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBDEF18296ACFDE00B649C7 /* FoodCell.swift */; };
+		8EBDEF1B296AD22900B649C7 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBDEF1A296AD22900B649C7 /* Food.swift */; };
+		8EBDEF1D296B2E4C00B649C7 /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBDEF1C296B2E4C00B649C7 /* BasketViewController.swift */; };
+		8EBDEF1F296B389900B649C7 /* BasketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBDEF1E296B389900B649C7 /* BasketCell.swift */; };
+		8EBDEF21296B3A2E00B649C7 /* Basket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBDEF20296B3A2E00B649C7 /* Basket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E416809296B668800BB35ED /* DeliveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryViewController.swift; sourceTree = "<group>"; };
 		8EBDEF01296ACA7100B649C7 /* hw-4-m-3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hw-4-m-3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EBDEF04296ACA7100B649C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EBDEF06296ACA7100B649C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,11 @@
 		8EBDEF0D296ACA7100B649C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EBDEF10296ACA7100B649C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EBDEF12296ACA7100B649C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EBDEF18296ACFDE00B649C7 /* FoodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		8EBDEF1A296AD22900B649C7 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		8EBDEF1C296B2E4C00B649C7 /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
+		8EBDEF1E296B389900B649C7 /* BasketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketCell.swift; sourceTree = "<group>"; };
+		8EBDEF20296B3A2E00B649C7 /* Basket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basket.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,12 @@
 				8EBDEF0D296ACA7100B649C7 /* Assets.xcassets */,
 				8EBDEF0F296ACA7100B649C7 /* LaunchScreen.storyboard */,
 				8EBDEF12296ACA7100B649C7 /* Info.plist */,
+				8EBDEF18296ACFDE00B649C7 /* FoodCell.swift */,
+				8EBDEF1A296AD22900B649C7 /* Food.swift */,
+				8EBDEF1C296B2E4C00B649C7 /* BasketViewController.swift */,
+				8EBDEF1E296B389900B649C7 /* BasketCell.swift */,
+				8EBDEF20296B3A2E00B649C7 /* Basket.swift */,
+				8E416809296B668800BB35ED /* DeliveryViewController.swift */,
 			);
 			path = "hw-4-m-3";
 			sourceTree = "<group>";
@@ -138,7 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EBDEF1F296B389900B649C7 /* BasketCell.swift in Sources */,
+				8EBDEF21296B3A2E00B649C7 /* Basket.swift in Sources */,
+				8EBDEF1D296B2E4C00B649C7 /* BasketViewController.swift in Sources */,
 				8EBDEF09296ACA7100B649C7 /* ViewController.swift in Sources */,
+				8EBDEF19296ACFDE00B649C7 /* FoodCell.swift in Sources */,
+				8E41680A296B668800BB35ED /* DeliveryViewController.swift in Sources */,
+				8EBDEF1B296AD22900B649C7 /* Food.swift in Sources */,
 				8EBDEF05296ACA7100B649C7 /* AppDelegate.swift in Sources */,
 				8EBDEF07296ACA7100B649C7 /* SceneDelegate.swift in Sources */,
 			);
