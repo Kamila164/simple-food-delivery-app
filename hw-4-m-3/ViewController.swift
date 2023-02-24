@@ -28,7 +28,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         addButton.layer.cornerRadius = 20
         addButton.setTitle("Корзина: \(basket.count)", for: .normal)
         addButton.backgroundColor = .orange

@@ -11,13 +11,9 @@ import UIKit
 class BasketCell: UITableViewCell {
 
     @IBOutlet weak var basketImageView: UIImageView!
-
     @IBOutlet weak var basketTitleLabel: UILabel!
-
     @IBOutlet weak var basketDescLabel: UILabel!
-
     @IBOutlet weak var basketPriceLabel: UILabel!
-
     @IBOutlet weak var basketBgView: UIView!
     
     override func awakeFromNib() {

@@ -13,7 +13,6 @@ class BasketViewController: UIViewController, UITableViewDataSource, UITableView
     
     var basket: [Basket] = []
     
-//    var totalLabel = UILabel()
     var addButton = UIButton()
     
     var amount = 0
@@ -41,8 +40,6 @@ class BasketViewController: UIViewController, UITableViewDataSource, UITableView
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
         for i in basket{
             amount += i.basketPrice
         }
